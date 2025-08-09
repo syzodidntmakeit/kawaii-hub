@@ -1,4 +1,4 @@
-# 🔍 Whoogle — Kawaii Hub Private Search
+# 🔍 Whoogle
 
 This folder contains the **Whoogle Search** setup. 
 Whoogle is a self-hosted, privacy-friendly front-end for Google Search — ad-free, JavaScript-light, and no tracking.
@@ -36,16 +36,16 @@ docker compose up -d
 ```
 
 ## 🔑 Access
-- Frontend: `https://search.kawaii-san.org`
-- Login: Use the credentials in your env variables.
+- **Frontend**: `https://search.kawaii-san.org`
+- **Login**: Use the credentials in your env variables.
 
 ## 🛠️ Maintenance
-- Update:
+- **Update**:
 ```bash
 docker compose pull
 docker compose up -d
 ```
-- Backup:
+- **Backup**:
 Save the `data/` direcctory.
 
 ## 📚 References
