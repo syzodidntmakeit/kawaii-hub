@@ -9,6 +9,8 @@ PC Specs:
 - Rx 6600 8GB
 - 1TB NVMe SSD
 
+<img width="500" height="500" alt="pc-image" src="https://github.com/user-attachments/assets/5e2afcf8-e879-4085-b1ce-37e3cff49b3d" />
+
 It's not perfect for running as a server but it's super overkill for what I want to do.
 
 I've decided to install Arch Linux on it as I'm exhausted with Microsoft's Windows 11, which is an operating system surrounded by office spaces. It's meant to be a user-friendly desktop environment. However it started to lock down on it features, became more proprietary, and who knows how much it knows about me. Thus I've decided to switch. There seems to be a superiority complex around Linux Users, however I suffer from mental illness and does not have an ego. So basically, "No. I'm not better than you because I use Linux."
