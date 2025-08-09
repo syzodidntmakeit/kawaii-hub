@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    network_mode: "bridge"
+    ports:
+      - 9004:8096    # HTTP port
+    volumes:
+      - ./config:/config
+      - ./cache:/cache
+      - ~/Anime:/media
+    restart: unless-stopped
