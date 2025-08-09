@@ -81,7 +81,7 @@ If you hate dependency hell and love repeatable setups, Docker is your waifu.
 | [Vaultwarden](./security-and-privacy/vaultwarden) ⚙️ | password.kawaii-san.org |
 | [Portainer](./admin/portainer) 🐳 | docker.kawaii-san.org |
 | [Nextcloud](./personal-files/nextcloud) ☁️ | cloud.kawaii-san.org |
-| [Jellyfin](/jellyfin) 🪼 | anime.kawaii-san.org |
+| [Jellyfin](./media/jellyfin) 🪼 | anime.kawaii-san.org |
 | [Navidrome](/navidrome) 💽 | music.kawaii-san.org |
 | [Filebrowser](/filebrowser) 📁 | files.kawaii-san.org |
 | [qBittorrent](qbittorrent) 🔧 | torrent.kawaii-san.org |
