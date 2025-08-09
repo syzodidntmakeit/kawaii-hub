@@ -8,7 +8,7 @@ It’s deployed here using Docker for easy management and updates.
 - **Bitwarden-compatible API** – Works with browser extensions, mobile apps, and desktop clients.
 - **Lightweight** – Written in Rust, uses less resources than the official Bitwarden server.
 - **Secure** – End-to-end encrypted password storage.
-- **Custom domain** – Served at `https://password.kawaii-san.org`.
+- **Custom domain** – Served at `https://passwords.kawaii-san.org`.
 - **Reverse proxy ready** – Works behind Traefik, Caddy, or Nginx with HTTPS.
 
 ## 🚀 Deployment
