@@ -1,6 +1,6 @@
-# 🛡️ Vaultwarden — Kawaii Hub Self-Hosted Password Manager
+# 🛡️ Vaultwarden
 
-This folder contains the **Vaultwarden** setup for the Kawaii Hub infrastructure.  
+This folder contains the **Vaultwarden** setup.  
 Vaultwarden is a lightweight, self-hosted password manager compatible with all official Bitwarden clients.  
 It’s deployed here using Docker for easy management and updates.
 
