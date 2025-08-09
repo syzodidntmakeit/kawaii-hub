@@ -75,15 +75,15 @@ Cloudflare my pookie 😘
 
 | Name | Domain |
 | --- | --- |
-| [Homer](/homer) | kawaii-san.org |
-| [Vaultwarden](/vaultwarden) | password.kawaii-san.org |
-| [Portainer](/portainer) | docker.kawaii-san.org |
-| [Nextcloud](/nextcloud) | cloud.kawaii-san.org |
-| [Jellyfin](/jellyfin) | anime.kawaii-san.org |
-| [Navidrome](/navidrome) | music.kawaii-san.org | 
-| [Filebrowser](/filebrowser) | files.kawaii-san.org |
-| [qBittorrent](qbittorrent) | torrent.kawaii-san.org |
-| [whoogle](/whoogle) | whoogle.kawaii-san.org |
-| [netdata](/netdata) | monitor.kawaii-san.org |
-| [AI Chatbot](/ai-chatbot) | mypookie.kawaii-san.org |
-| [Trilium](/trilium) | notes.kawaii-san.org |
+| [Homer](/homer) 🏡 | kawaii-san.org |
+| [Vaultwarden](/vaultwarden) ⚙️ | password.kawaii-san.org |
+| [Portainer](/portainer) 🐳 | docker.kawaii-san.org |
+| [Nextcloud](/nextcloud) ☁️ | cloud.kawaii-san.org |
+| [Jellyfin](/jellyfin) 🪼 | anime.kawaii-san.org |
+| [Navidrome](/navidrome) 💽 | music.kawaii-san.org |
+| [Filebrowser](/filebrowser) 📁 | files.kawaii-san.org |
+| [qBittorrent](qbittorrent) 🔧 | torrent.kawaii-san.org |
+| [whoogle](/whoogle) <img width="20" height="20" alt="GoogleLogo" src="https://github.com/user-attachments/assets/632bd88b-fda1-4a87-be8b-52ef9a6008c8" /> | whoogle.kawaii-san.org | 
+| [netdata](/netdata) 🖥️ | monitor.kawaii-san.org |
+| [AI Chatbot](/ai-chatbot) 🤖 | mypookie.kawaii-san.org |
+| [Trilium](/trilium) 📝 | notes.kawaii-san.org |
