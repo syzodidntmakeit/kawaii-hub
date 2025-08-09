@@ -28,17 +28,17 @@ docker compose up -d
 ```
 
 ## 🔑 Access
-- Frontend: `https://portainer.kawaii-san.org`
-- Initial Setup: On first login, create an admin user and set a good password.
-- Endpoints: Add the lcoal Docker or remote environments through the UI.
+- **Frontend**: `https://portainer.kawaii-san.org`
+- **Initial Setup**: On first login, create an admin user and set a good password.
+- **Endpoints**: Add the lcoal Docker or remote environments through the UI.
 
 ## 🛠 Maintenance
-- Update:
+- **Update**:
 ```bash
 docker compose pull
 docker compose up -d
 ```
-- Backup: Save the `data/` directory — it contains all configuration and endpoint data.
+- **Backup**: Save the `data/` directory — it contains all configuration and endpoint data.
 
 ## 📚 References
 - [Portainer Documentation](https://docs.portainer.io/)
