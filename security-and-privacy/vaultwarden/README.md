@@ -32,16 +32,16 @@ docker compose up -d
 ```
 
 ## 🔑 Access
-- Web: `https://passwords.kawaii-san.org`
-- Admin panel: `https://passwords.kawaii-san.org/admin`
+- **Web**: `https://passwords.kawaii-san.org`
+- **Admin panel**: `https://passwords.kawaii-san.org/admin`
 
 ## 🛠️ Maintenance
-- Update:
+- **Update**:
 ```bash
 docker compose pull
 docker compose up -d
 ```
-- Backup:
+- **Backup**:
 Backup the `data/` folder regularly.
 
 ## 📚 References
