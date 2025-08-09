@@ -1,5 +1,6 @@
 # ✨ Kawaii-hub ✨
-Homelabbing; the joys of self hosting and running my own websites all for free... or almost free. Having lost interest in video games, I recently found this new hobby. I have documented as much as I can and explain my thought process.
+Homelabbing; the joys of self hosting and running my own websites all for free... or almost free.
+Welcome to my kawaii self-hosting empire. Use this as your guide and inspiration if you wanna dive into the chaotic fun of running your own server
 
 ## PC Specs ⚡
 - Ryzen 5 5600
@@ -40,6 +41,7 @@ Reasons for domain:
 Cloudflare my pookie 😘
 
 ### Docker <img width="17" height="17" alt="png-clipart-docker-logo-thumbnail-tech-companies-thumbnail" src="https://github.com/user-attachments/assets/27466ede-e4bf-47b1-a574-f6607d4a0b26" />
+If you hate dependency hell and love repeatable setups, Docker is your waifu.
 - Run services in containers instead of VMs (virtual machines) or Bare-Metal
 - Deployment based on updates. So we can implement new features without bringing the whole thing down and back up again.
 - Extremely lightweight.
