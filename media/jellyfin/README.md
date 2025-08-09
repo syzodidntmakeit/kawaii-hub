@@ -1,5 +1,7 @@
 # 🪼 Jellyfin
 
+Anime at your fingertips.
+
 ## 📜 Features
 - **Netflix** - Your open-source Netflix for anime, movies, and music
 - **Lightweight** – Written in Rust, uses less resources than the official Bitwarden server.
