@@ -1,8 +1,5 @@
 # 🪼 Jellyfin
 
-Welcome to **Kawaii-Hub** — your personal homelab playground for self-hosting all things cute, nerdy, and anime-themed.  
-From streaming your anime stash with Jellyfin to managing containers with Portainer, this repo helps you run your own kawaii kingdom. 🦖 rawr!
-
 ## 📜 Features
 - **Netflix** - Your open-source Netflix for anime, movies, and music
 - **Lightweight** – Written in Rust, uses less resources than the official Bitwarden server.
