@@ -83,8 +83,8 @@ If you hate dependency hell and love repeatable setups, Docker is your waifu.
 | [Nextcloud](./personal-files/nextcloud) ☁️ | cloud.kawaii-san.org |
 | [Jellyfin](./media/jellyfin) 🪼 | anime.kawaii-san.org |
 | [Navidrome](/navidrome) 💽 | music.kawaii-san.org |
-| [Filebrowser](/filebrowser) 📁 | files.kawaii-san.org |
-| [qBittorrent](qbittorrent) 🔧 | torrent.kawaii-san.org |
+| [Filebrowser](./personal-files/filebrowser) 📁 | files.kawaii-san.org |
+| [qBittorrent](./personal-files/qbittorrent) 🔧 | torrent.kawaii-san.org |
 | [whoogle](./security-and-privacy/whoogle) <img width="20" height="20" alt="GoogleLogo" src="https://github.com/user-attachments/assets/632bd88b-fda1-4a87-be8b-52ef9a6008c8" /> | search.kawaii-san.org | 
 | [netdata](/netdata) 🖥️ | monitor.kawaii-san.org |
 | [AI Chatbot](/ai-chatbot) 🤖 | mypookie.kawaii-san.org |
