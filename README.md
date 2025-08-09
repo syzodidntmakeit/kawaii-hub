@@ -61,7 +61,7 @@ If you hate dependency hell and love repeatable setups, Docker is your waifu.
 - **Jellyfin** | Open-source Netflix alternative.
 - **Navidrome** | Spotify-like music streaming from your library.
 
-### 🔒 Security
+### 🔒 Security & Privacy
 - **Vaultwarden** | Already running for password management.
 - **Whoogle** | Google without being tracked.
 
