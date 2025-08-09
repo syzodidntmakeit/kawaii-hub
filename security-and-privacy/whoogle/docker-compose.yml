@@ -1,19 +1,12 @@
-version: "3.9"
+version: '3'
 
 services:
-  whoogle:
+  whoogle-search:
     image: benbusby/whoogle-search:latest
     container_name: whoogle
     restart: unless-stopped
     ports:
-      - "9008:5000" # Local port 8081, container port 5000
+      - "9008:5000"
     environment:
-      - WHOOGLE_USER=admin
-      - WHOOGLE_PASS=supersecurepassword
-      - WHOOGLE_CONFIG_COUNTRY=SG
-      - WHOOGLE_CONFIG_LANGUAGE=lang_en
-      - WHOOGLE_CONFIG_SAFE=1
-      - WHOOGLE_CONFIG_THEME=system
-    # Optional: Persistent config
-    volumes:
-      - ./data:/config
+      WHOOGLE_CONFIG_COUNTRY: "SG" # Or your country code
+      WHOOGLE_CONFIG_LANGUAGE: "lang_en" 
