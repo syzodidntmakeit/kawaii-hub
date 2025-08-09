@@ -25,3 +25,25 @@ ADMIN_TOKEN=supersecretadmintoken
 ```
 ### 2️⃣ Docker Compose
 You can use the [docker compose](./docker-compose.yml)
+
+### 4️⃣ Start Vaultwarden
+```bash
+docker compose up -d
+```
+
+## 🔑 Access
+- Web: `https://passwords.kawaii-san.org`
+- Admin panel: `https://passwords.kawaii-san.org/admin`
+
+## 🛠️ Maintenance
+- Update:
+```bash
+docker compose pull
+docker compose up -d
+```
+- Backup:
+Backup the `data/` folder regularly.
+
+## 📚 References
+- [Vaultwarden GitHub](https://github.com/dani-garcia/vaultwarden)
+- [Bitwarden Clients](https://bitwarden.com/download/)
