@@ -52,20 +52,20 @@ If you hate dependency hell and love repeatable setups, Docker is your waifu.
 ### 🏠 Homepage
 - **Homer** | Houses all the subdomains in a simplle web UI. # Simpson
 
-### 🗂 Personal Cloud / File Hosting
+### 🗂 Personal Files
 - **Nextcloud** | Full Google Drive/Docs/Calendar alternative.   
 - **FileBrowser** | Web-based file manager for your server’s files.
 - **qBittorrent** | Torrent files, download and seed locally.
 
-### 🎥 Media Servers
+### 🎥 Media
 - **Jellyfin** | Open-source Netflix alternative.
 - **Navidrome** | Spotify-like music streaming from your library.
 
-### 🔒 Security / Privacy
+### 🔒 Security
 - **Vaultwarden** | Already running for password management.
 - **Whoogle** | Google without being tracked.
 
-### 📊 Monitoring & Management
+### 📊 Admin
 - **Portainer** | Web GUI for managing Docker containers.
 - **Netdata** | 	Real-time server monitoring.
 
