@@ -75,17 +75,17 @@ If you hate dependency hell and love repeatable setups, Docker is your waifu.
 
 ### Full collection
 
-| Name | Domain |
-| --- | --- | 
-| [Homer](/homer) 🏡 | kawaii-san.org | 
-| [Vaultwarden](./security-and-privacy/vaultwarden) ⚙️ | https://passwords.kawaii-san.org |
-| [Portainer](./admin/portainer) 🐳 | https://docker.kawaii-san.org |
-| [Nextcloud](./personal-files/nextcloud) ☁️ | https://cloud.kawaii-san.org |
-| [Jellyfin](./media/jellyfin) 🪼 | https://anime.kawaii-san.org |
-| [Navidrome](/navidrome) 💽 | https://music.kawaii-san.org |
-| [Filebrowser](./personal-files/filebrowser) 📁 | https://files.kawaii-san.org |
-| [qBittorrent](./personal-files/qbittorrent) 🔧 | https://torrent.kawaii-san.org |
-| [whoogle](./security-and-privacy/whoogle) <img width="20" height="20" alt="GoogleLogo" src="https://github.com/user-attachments/assets/632bd88b-fda1-4a87-be8b-52ef9a6008c8" /> | https://search.kawaii-san.org | 
-| [netdata](/netdata) 🖥️ | monitor.kawaii-san.org |
-| [AI Chatbot](/ai-chatbot) 🤖 | [mypookie](https://mypookie.kawaii-san.org) |
-| [Trilium](/trilium) 📝 | https://notes.kawaii-san.org |
+| **Name** | **Domain** | **Function** |
+| --- | --- | --- |
+| [Homer](/homer) 🏡 | kawaii-san.org | Homepage |
+| [Vaultwarden](./security-and-privacy/vaultwarden) ⚙️ | https://passwords.kawaii-san.org | Password Manager |
+| [Portainer](./admin/portainer) 🐳 | https://docker.kawaii-san.org | Docker Containers and Images Manager |
+| [Nextcloud](./personal-files/nextcloud) ☁️ | https://cloud.kawaii-san.org | Cloud Storage |
+| [Jellyfin](./media/jellyfin) 🪼 | https://anime.kawaii-san.org | Stream Anime |
+| [Navidrome](/navidrome) 💽 | https://music.kawaii-san.org | Stream Music |
+| [Filebrowser](./personal-files/filebrowser) 📁 | https://files.kawaii-san.org | Browse Server Files |
+| [qBittorrent](./personal-files/qbittorrent) 🔧 | https://torrent.kawaii-san.org | Download and Seed Files |
+| [whoogle](./security-and-privacy/whoogle) <img width="20" height="20" alt="GoogleLogo" src="https://github.com/user-attachments/assets/632bd88b-fda1-4a87-be8b-52ef9a6008c8" /> | https://search.kawaii-san.org | Search Google without tracker |
+| [netdata](/netdata) 🖥️ | monitor.kawaii-san.org | Manage Server performance |
+| [AI Chatbot](/ai-chatbot) 🤖 | [mypookie](https://mypookie.kawaii-san.org) | AI Chatbot assisstant |
+| [Trilium](/trilium) 📝 | https://notes.kawaii-san.org | Note Taking hierarchy supports Markdown |
