@@ -77,7 +77,7 @@ If you hate dependency hell and love repeatable setups, Docker is your waifu.
 
 | **Name** | **Domain** | **Function** |
 | --- | --- | --- |
-| [Homer](/homer) 🏡 | kawaii-san.org | Homepage |
+| [Homer](/homer) 🏡 | [home](https://home.kawaii-san.org) | Homepage |
 | [Vaultwarden](./security-and-privacy/vaultwarden) ⚙️ | [passwords](https://passwords.kawaii-san.org) | Password Manager |
 | [Portainer](./admin/portainer) 🐳 | [docker](https://docker.kawaii-san.org) | Docker Containers and Images Manager |
 | [Nextcloud](./personal-files/nextcloud) ☁️ | [cloud](https://cloud.kawaii-san.org) | Cloud Storage |
