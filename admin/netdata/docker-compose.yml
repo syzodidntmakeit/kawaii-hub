@@ -1,0 +1,11 @@
+version: '3'
+services:
+  netdata:
+    image: netdata/netdata
+    volumes:
+      - /etc/passwd:/host/etc/passwd:ro
+      - /etc/group:/host/etc/group:ro
+      - ./netdata.conf:/opt/netdata/.env
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    ports:
+      - 9009:19999
