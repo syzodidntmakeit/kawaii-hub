@@ -1,6 +1,7 @@
 # 🦦 qBittorrent
 
 Your lightweight, self-hosted torrent client — because you don’t need some bloated ass software to get your anime stash.
+I use qBittorrent to torrent anime shows, that immediately show up on the Jellyfin server upon download.
 
 ## 📜 Features
 - **Lightweight & Efficient** — Runs smooth on your kawaii-rig without sucking resources  
