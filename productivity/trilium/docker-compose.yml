@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  trilium:
+    image: zadam/trilium:latest
+    container_name: trilium
+    restart: unless-stopped
+    ports:
+      - "9011:8080"  # Map host 9011 to container 8080 (default Trilium port)
+    volumes:
+      - ./trilium-data:/root/trilium-data  # Persist your notes
