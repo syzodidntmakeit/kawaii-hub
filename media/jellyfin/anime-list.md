@@ -10,3 +10,4 @@
 | The Rising of the Shield Hero | Season 3 |
 | Attack on Titan | 4 Seasons |
 | Mob Psycho 100 | 3 Seasons |
+| Akira | 1 movie |
