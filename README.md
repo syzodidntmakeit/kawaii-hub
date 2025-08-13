@@ -75,18 +75,18 @@ If you hate dependency hell and love repeatable setups, Docker is your waifu.
 
 ### Full collection
 
-| **Port** | **Name** | **Domain** | **Function** |
+| **Number** | **Name** | **Domain** | **Function** |
 | --- | --- | --- | --- |
-| 8080 | [Homer](/homer) 🏡                                     | [home](https://home.kawaii-san.org) | Homepage |
-| 9001 | [Vaultwarden](./security-and-privacy/vaultwarden) ⚙️   | [passwords](https://passwords.kawaii-san.org) | Password Manager |
-| 9002 | [Portainer](./admin/portainer) 🐳                      | [docker](https://docker.kawaii-san.org) | Docker Containers and Images Manager |
-| 9003 | [Nextcloud](./personal-files/nextcloud) ☁️             | [cloud](https://cloud.kawaii-san.org) | Cloud Storage |
-| 9004 | [Jellyfin](./media/jellyfin) 🪼                        | [anime](https://anime.kawaii-san.org) | Stream Anime |
-| 9005 | [Navidrome](/navidrome) 💽                             | [music](https://music.kawaii-san.org) | Stream Music |
-| 9006 | [Filebrowser](./personal-files/filebrowser) 📁         | [files](https://files.kawaii-san.org) | Browse Server Files |
-| 9007 | [qBittorrent](./personal-files/qbittorrent) 🔧         | [torrent](https://torrent.kawaii-san.org) | Download and Seed Files |
-| 9008 | [whoogle](./security-and-privacy/whoogle) <img width="20" height="20" alt="GoogleLogo" src="https://github.com/user-attachments/assets/632bd88b-fda1-4a87-be8b-52ef9a6008c8" /> | [search](https://search.kawaii-san.org) | Search Google without tracker |
-| 9009 | [netdata](./netdata) 🖥️                                | [monitor](https://monitor.kawaii-san.org) | Manage Server performance |
-| 9010 | [AI Chatbot](./ai-chatbot) 🤖                          | [mypookie](https://mypookie.kawaii-san.org) | AI Chatbot assisstant |
-| 9011 | [Trilium](./trilium) 📝                                | [notes](https://notes.kawaii-san.org) | Note Taking hierarchy supports Markdown |
-| 9012 | [Ghost](./blog) 👻                                     | [blog](https://blog.kawaii-san.org) | Blog |
+| 00 | [Homer](/homer) 🏡                                     | [home](https://home.kawaii-san.org) | Homepage |
+| 01 | [Vaultwarden](./security-and-privacy/vaultwarden) ⚙️   | [passwords](https://passwords.kawaii-san.org) | Password Manager |
+| 02 | [Portainer](./admin/portainer) 🐳                      | [docker](https://docker.kawaii-san.org) | Docker Containers and Images Manager |
+| 03 | [Nextcloud](./personal-files/nextcloud) ☁️             | [cloud](https://cloud.kawaii-san.org) | Cloud Storage |
+| 04 | [Jellyfin](./media/jellyfin) 🪼                        | [anime](https://anime.kawaii-san.org) | Stream Anime |
+| 05 | [Navidrome](/navidrome) 💽                             | [music](https://music.kawaii-san.org) | Stream Music |
+| 06 | [Filebrowser](./personal-files/filebrowser) 📁         | [files](https://files.kawaii-san.org) | Browse Server Files |
+| 07 | [qBittorrent](./personal-files/qbittorrent) 🔧         | [torrent](https://torrent.kawaii-san.org) | Download and Seed Files |
+| 08 | [whoogle](./security-and-privacy/whoogle) <img width="20" height="20" alt="GoogleLogo" src="https://github.com/user-attachments/assets/632bd88b-fda1-4a87-be8b-52ef9a6008c8" /> | [search](https://search.kawaii-san.org) | Search Google without tracker |
+| 9 | [netdata](./netdata) 🖥️                                | [monitor](https://monitor.kawaii-san.org) | Manage Server performance |
+| 10 | [AI Chatbot](./ai-chatbot) 🤖                          | [mypookie](https://mypookie.kawaii-san.org) | AI Chatbot assisstant |
+| 11 | [Trilium](./trilium) 📝                                | [notes](https://notes.kawaii-san.org) | Note Taking hierarchy supports Markdown |
+| 12 | [Ghost](./blog) 👻                                     | [blog](https://blog.kawaii-san.org) | Blog |
