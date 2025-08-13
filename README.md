@@ -86,7 +86,7 @@ If you hate dependency hell and love repeatable setups, Docker is your waifu.
 | 06 | [Filebrowser](./personal-files/filebrowser) 📁         | [files](https://files.kawaii-san.org) | Browse Server Files |
 | 07 | [qBittorrent](./personal-files/qbittorrent) 🔧         | [torrent](https://torrent.kawaii-san.org) | Download and Seed Files |
 | 08 | [whoogle](./security-and-privacy/whoogle) <img width="20" height="20" alt="GoogleLogo" src="https://github.com/user-attachments/assets/632bd88b-fda1-4a87-be8b-52ef9a6008c8" /> | [search](https://search.kawaii-san.org) | Search Google without tracker |
-| 9 | [netdata](./netdata) 🖥️                                | [monitor](https://monitor.kawaii-san.org) | Manage Server performance |
+| 09 | [netdata](./netdata) 🖥️                                | [monitor](https://monitor.kawaii-san.org) | Manage Server performance |
 | 10 | [AI Chatbot](./ai-chatbot) 🤖                          | [mypookie](https://mypookie.kawaii-san.org) | AI Chatbot assisstant |
 | 11 | [Trilium](./trilium) 📝                                | [notes](https://notes.kawaii-san.org) | Note Taking hierarchy supports Markdown |
 | 12 | [Ghost](./blog) 👻                                     | [blog](https://blog.kawaii-san.org) | Blog |
