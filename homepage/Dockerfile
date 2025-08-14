@@ -1,6 +1,9 @@
 # Use the official PHP image with FPM and Nginx
 FROM trafex/php-nginx:latest
 
+# Install essential PHP extensions for making API calls
+RUN apk --no-cache add php-curl php-json
+
 # Set the working directory inside the container
 WORKDIR /var/www/html
 
@@ -13,5 +16,3 @@ COPY nginx.conf /etc/nginx/nginx.conf
 
 # Expose port 80 (the default Nginx port inside the container)
 EXPOSE 80
-
-# The default command from the base image will start Nginx and PHP-FPM
