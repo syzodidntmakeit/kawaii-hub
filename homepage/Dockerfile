@@ -1,0 +1,17 @@
+# Use the official PHP image with FPM and Nginx
+FROM trafex/php-nginx:latest
+
+# Set the working directory inside the container
+WORKDIR /var/www/html
+
+# Copy your website files into the container
+# This copies index.html, health.php, and the assets folder
+COPY . .
+
+# Copy your custom Nginx configuration
+COPY nginx.conf /etc/nginx/nginx.conf
+
+# Expose port 80 (the default Nginx port inside the container)
+EXPOSE 80
+
+# The default command from the base image will start Nginx and PHP-FPM
