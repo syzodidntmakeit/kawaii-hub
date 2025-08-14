@@ -64,15 +64,19 @@
 
         /* Night Mode */
         .night-mode {
-            background: linear-gradient(160deg, #0d1117, #1f2937) !important;
+            background: #1f2937 !important; /* Solid dark grey background */
             color: #c9d1d9 !important;
         }
         .night-mode .glass {
-            background: rgba(22, 27, 34, 0.7);
+            background: rgba(31, 41, 55, 0.7);
             border-color: rgba(255, 255, 255, 0.1);
         }
-        .night-mode h1, .night-mode h2, .night-mode h3, .night-mode h4, .night-mode .font-semibold {
+        .night-mode h1, .night-mode h2, .night-mode h3, .night-mode h4, 
+        .night-mode .font-semibold, .night-mode p, .night-mode div {
             color: #e6edf3;
+        }
+        .night-mode .text-\[var\(--muted\)\] {
+            color: #9ca3af !important;
         }
         .night-mode span.text-\[var\(--accent\)\] {
            color: #f78166; /* Coral accent for dark mode */
@@ -146,7 +150,7 @@
             <a href="#" class="flex items-center gap-4">
                 <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-md overflow-hidden">
                     <!-- USER: Replace with your logo, e.g., ./assets/logo.png -->
-                    <img src="https://placehold.co/64x64/ffeef8/ff7ab6?text=🌸" alt="kawaii icon" class="w-14 h-14 object-cover rounded-xl">
+                    <img src="./assets/your-logo.png" alt="kawaii icon" class="w-14 h-14 object-cover rounded-xl" onerror="this.onerror=null;this.src='https://placehold.co/64x64/ffeef8/ff7ab6?text=🌸';">
                 </div>
                 <div>
                     <h1 class="text-2xl lg:text-3xl font-extrabold" style="color: var(--text-main);">kawaii-san<span class="text-[var(--accent)]">.org</span></h1>
@@ -227,16 +231,32 @@
                 <div class="glass p-6 rounded-2xl">
                     <h2 class="text-2xl font-bold mb-4" style="color: var(--text-main);">Music Library</h2>
                     <div id="album-grid" class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                        <!-- Albums from Navidrome will be loaded here -->
-                        <button data-album-name="Madvillainy" class="block p-3 rounded-2xl glass shadow-sm border hover:scale-[1.02] hover:shadow-lg transition-all text-left">
-                            <img src="https://placehold.co/160x160/111/fff?text=Madvillainy" alt="Madvillainy" class="w-full h-auto rounded-lg mb-2 aspect-square object-cover">
+                        <!-- Madvillainy Album - Reference Template -->
+                        <button data-album-name="Madvillainy" data-artist-name="Madvillain" class="block p-3 rounded-2xl glass shadow-sm border hover:scale-[1.02] hover:shadow-lg transition-all text-left">
+                            <img src="./assets/madvillainy.png" alt="Madvillainy" class="w-full h-auto rounded-lg mb-2 aspect-square object-cover" onerror="this.onerror=null;this.src='https://placehold.co/160x160/111/fff?text=?';">
                             <div class="font-semibold text-sm truncate" style="color: var(--text-main);">Madvillainy</div>
                             <div class="text-xs text-[var(--muted)] truncate">Madvillain</div>
                         </button>
-                        <button data-album-name="Mr. Morale and the Big Steppers" class="block p-3 rounded-2xl glass shadow-sm border hover:scale-[1.02] hover:shadow-lg transition-all text-left">
-                            <img src="https://placehold.co/160x160/111/fff?text=MMATBS" alt="Mr.Morale" class="w-full h-auto rounded-lg mb-2 aspect-square object-cover">
-                            <div class="font-semibold text-sm truncate" style="color: var(--text-main);">Mr. Morale and the Big Steppers</div>
+                        
+                        <!-- Mr. Morale Album -->
+                        <button data-album-name="Mr. Morale & The Big Steppers" data-artist-name="Kendrick Lamar" class="block p-3 rounded-2xl glass shadow-sm border hover:scale-[1.02] hover:shadow-lg transition-all text-left">
+                            <img src="./assets/mrmorale.png" alt="Mr. Morale & The Big Steppers" class="w-full h-auto rounded-lg mb-2 aspect-square object-cover" onerror="this.onerror=null;this.src='https://placehold.co/160x160/111/fff?text=?';">
+                            <div class="font-semibold text-sm truncate" style="color: var(--text-main);">Mr. Morale & The Big Steppers</div>
                             <div class="text-xs text-[var(--muted)] truncate">Kendrick Lamar</div>
+                        </button>
+
+                        <!-- IGOR -->
+                        <button data-album-name="IGOR" data-artist-name="Tyler, the Creator" class="block p-3 rounded-2xl glass shadow-sm border hover:scale-[1.02] hover:shadow-lg transition-all text-left">
+                            <img src="./assets/igor.png" alt="IGOR" class="w-full h-auto rounded-lg mb-2 aspect-square object-cover" onerror="this.onerror=null;this.src='https://placehold.co/160x160/111/fff?text=?';">
+                            <div class="font-semibold text-sm truncate" style="color: var(--text-main);">IGOR</div>
+                            <div class="text-xs text-[var(--muted)] truncate">Tyler, the Creator</div>
+                        </button>
+                        
+                        <!-- blond -->
+                        <button data-album-name="blonde" data-artist-name="Frank Ocean" class="block p-3 rounded-2xl glass shadow-sm border hover:scale-[1.02] hover:shadow-lg transition-all text-left">
+                            <img src="./assets/blonde.png" alt="blonde" class="w-full h-auto rounded-lg mb-2 aspect-square object-cover" onerror="this.onerror=null;this.src='https://placehold.co/160x160/111/fff?text=?';">
+                            <div class="font-semibold text-sm truncate" style="color: var(--text-main);">blonde</div>
+                            <div class="text-xs text-[var(--muted)] truncate">Frank Ocean</div>
                         </button>
                     </div>
                 </div>
@@ -286,17 +306,17 @@
                     <h3 class="font-bold text-lg mb-2" style="color: var(--text-main);">My Anime Collection</h3>
                     <div class="mt-3 space-y-3">
                         <a href="#" class="flex items-center gap-3 p-2 rounded-lg hover:bg-white/50 transition-colors">
-                            <img src="./assets/evangelion.png" alt="Anime Art" class="w-12 h-12 rounded-lg object-cover">
+                            <img src="./assets/evangelion.png" alt="Anime Art" class="w-12 h-12 rounded-lg object-cover" onerror="this.onerror=null;this.src='https://placehold.co/48x48/6b21a8/fff?text=🤖';">
                             <div class="flex-1 min-w-0"><div class="text-sm font-semibold truncate">Neon Genesis Evangelion</div><div class="text-xs text-[var(--muted)] truncate">Hideaki Anno</div></div>
                             <div class="text-xs text-purple-500 font-bold">#1</div>
                         </a>
                         <a href="#" class="flex items-center gap-3 p-2 rounded-lg hover:bg-white/50 transition-colors">
-                            <img src="./assets/bocchi.png" alt="Anime Art" class="w-12 h-12 rounded-lg object-cover">
+                            <img src="./assets/bocchi.png" alt="Anime Art" class="w-12 h-12 rounded-lg object-cover" onerror="this.onerror=null;this.src='https://placehold.co/48x48/db2777/fff?text=🎸';">
                             <div class="flex-1 min-w-0"><div class="text-sm font-semibold truncate">Bocchi the Rock!</div><div class="text-xs text-[var(--muted)] truncate">CloverWorks</div></div>
                             <div class="text-xs text-pink-500 font-bold">#2</div>
                         </a>
                          <a href="#" class="flex items-center gap-3 p-2 rounded-lg hover:bg-white/50 transition-colors">
-                            <img src="./assets/jojo.png" alt="Anime Art" class="w-12 h-12 rounded-lg object-cover">
+                            <img src="./assets/jojo.png" alt="Anime Art" class="w-12 h-12 rounded-lg object-cover" onerror="this.onerror=null;this.src='https://placehold.co/48x48/f59e0b/fff?text=⭐';">
                             <div class="flex-1 min-w-0"><div class="text-sm font-semibold truncate">JoJo's Bizarre Adventure</div><div class="text-xs text-[var(--muted)] truncate">Hirohiko Araki</div></div>
                             <div class="text-xs text-amber-500 font-bold">#3</div>
                         </a>
@@ -320,15 +340,22 @@
             }
         }
 
-        // ======================= AI Chatbot (Ollama via Open WebUI) =======================
+        // ======================= API & Config Section =======================
+        const OLLAMA_API_URL = 'https://mypookie.kawaii-san.org/v1'; 
+        const OLLAMA_API_KEY = 'YOUR_OPENWEBUI_API_KEY_HERE';
+        const OLLAMA_MODEL = 'llama3'; 
+
+        const navidromeConfig = {
+            url: 'https://music.kawaii-san.org',
+            user: 'homepage-api',
+            pass: 'h0mers1mps0n', 
+            params: `u=homepage-api&p=h0mers1mps0n&v=1.16.1&c=kawaii-hub&f=json`
+        };
+
+        // ======================= AI Chatbot =======================
         const chatForm = document.getElementById('chat-form');
         const chatInput = document.getElementById('chat-input');
         const chatContainer = document.getElementById('chat-container');
-        
-        const OLLAMA_API_URL = 'https://mypookie.kawaii-san.org/v1'; 
-        const OLLAMA_API_KEY = 'YOUR_API_KEY_HERE';
-        const OLLAMA_MODEL = 'llama3'; 
-
         let conversationHistory = [];
 
         function addMessageToChat(sender, message) {
@@ -346,40 +373,26 @@
             chatForm.addEventListener('submit', async (e) => {
                 e.preventDefault();
                 const userInput = chatInput.value.trim();
-                if (!userInput || OLLAMA_API_KEY === 'YOUR_API_KEY_HERE') {
-                    if (OLLAMA_API_KEY === 'YOUR_API_KEY_HERE') {
+                if (!userInput || OLLAMA_API_KEY === 'YOUR_OPENWEBUI_API_KEY_HERE') {
+                    if (OLLAMA_API_KEY === 'YOUR_OPENWEBUI_API_KEY_HERE') {
                         addMessageToChat('bot', 'Please set your Open WebUI API key in the script to enable the chatbot.');
                     }
                     return;
                 }
-
                 addMessageToChat('user', userInput);
                 chatInput.value = '';
                 conversationHistory.push({ role: 'user', content: userInput });
-
                 try {
                     const response = await fetch(`${OLLAMA_API_URL}/chat/completions`, {
                         method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                            'Authorization': `Bearer ${OLLAMA_API_KEY}`
-                        },
-                        body: JSON.stringify({
-                            model: OLLAMA_MODEL,
-                            messages: conversationHistory
-                        })
+                        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${OLLAMA_API_KEY}` },
+                        body: JSON.stringify({ model: OLLAMA_MODEL, messages: conversationHistory })
                     });
-
-                    if (!response.ok) {
-                        throw new Error(`API request failed. Status: ${response.status}. Make sure your Open WebUI instance has CORS enabled for this domain.`);
-                    }
-
+                    if (!response.ok) throw new Error(`API request failed. Status: ${response.status}.`);
                     const data = await response.json();
                     const botResponse = data.choices[0].message.content;
-                    
                     addMessageToChat('bot', botResponse);
                     conversationHistory.push({ role: 'assistant', content: botResponse });
-
                 } catch (error) {
                     console.error('Error fetching from Ollama API:', error);
                     addMessageToChat('bot', `Sorry, I couldn't connect to the AI. Error: ${error.message}`);
@@ -387,15 +400,7 @@
             });
         }
 
-
-        // ======================= Jukebox (Navidrome Integration & Real Visualizer) =======================
-        const navidromeConfig = {
-            url: 'https://music.kawaii-san.org',
-            user: 'homepage-api',
-            pass: 'h0mers1mps0n', 
-            params: `u=homepage-api&p=h0mers1mps0n&v=1.16.1&c=kawaii-hub&f=json`
-        };
-
+        // ======================= Jukebox & Music Library =======================
         let jukeboxPlaylist = [];
         let currentTrackIndex = 0;
         let audio = null;
@@ -446,7 +451,7 @@
                 return data['subsonic-response'];
             } catch (error) {
                 console.error('Navidrome API call failed:', error);
-                if (albumGrid) albumGrid.innerHTML = `<p class="text-center col-span-full">Error: Could not connect to Navidrome.</p>`;
+                document.getElementById('track-info').textContent = 'Error: Could not connect to Navidrome.';
                 return null;
             }
         }
@@ -473,10 +478,8 @@
                 stopAudio();
                 return;
             }
-            
             audio.removeEventListener('ended', nextTrack);
             audio.addEventListener('ended', nextTrack);
-            
             const track = jukeboxPlaylist[currentTrackIndex];
             const streamUrl = `${navidromeConfig.url}/rest/stream?id=${track.id}&${navidromeConfig.params}`;
             audio.src = streamUrl;
@@ -489,7 +492,7 @@
         }
 
         function stopAudio() {
-            if (audio) audio.pause();
+            if (audio) { audio.pause(); }
             visualizerContainer.style.opacity = '0';
             if (visualizerFrameId) cancelAnimationFrame(visualizerFrameId);
             document.getElementById('track-info').textContent = 'Ready to play...';
@@ -515,11 +518,7 @@
 
         document.getElementById('play-btn')?.addEventListener('click', () => {
              if (!audio || audio.paused) {
-                if (jukeboxPlaylist.length === 0) {
-                    // Does nothing until an album is clicked.
-                } else {
-                    playCurrentTrackInPlaylist();
-                }
+                if (jukeboxPlaylist.length > 0) playCurrentTrackInPlaylist();
              }
         });
         document.getElementById('stop-btn')?.addEventListener('click', stopAudio);
@@ -539,36 +538,27 @@
                 const el = document.getElementById(id);
                 if (el) el.textContent = text;
             };
-
             try {
                 const response = await fetch('https://monitor.kawaii-san.org/api/v1/info');
                 if (!response.ok) throw new Error('Netdata not reachable');
-                
-                // Fetch CPU
                 const cpuRes = await fetch('https://monitor.kawaii-san.org/api/v1/data?chart=system.cpu&after=-1&points=1&group=average&format=json');
                 const cpuData = await cpuRes.json();
                 setContent('cpu-usage', `${cpuData.data[0][1].toFixed(2)}%`);
-
-                // Fetch RAM
                 const ramRes = await fetch('https://monitor.kawaii-san.org/api/v1/data?chart=system.ram&after=-1&points=1&group=average&format=json');
                 const ramData = await ramRes.json();
                 const ramUsed = ramData.data[0][ramData.dimension_names.indexOf('used')];
                 const ramTotal = (ramData.data[0][ramData.dimension_names.indexOf('free')] + ramData.data[0][ramData.dimension_names.indexOf('used')])/1024;
                 setContent('memory-usage', `${(ramUsed/1024).toFixed(2)}GB / ${ramTotal.toFixed(2)}GB`);
-
-                // Fetch Uptime
                 const uptimeRes = await fetch('https://monitor.kawaii-san.org/api/v1/data?chart=system.uptime&after=-1&points=1&group=average&format=json');
                 const uptimeData = await uptimeRes.json();
                 const uptimeSeconds = uptimeData.data[0][1];
                 const days = Math.floor(uptimeSeconds / (3600*24));
                 setContent('uptime', `${days} days`);
-
             } catch (error) {
-                console.error("Netdata API failed, using fallback data.", error);
-                // Fallback to random data if API fails
-                setContent('cpu-usage', `${Math.floor(5 + Math.random() * 25)}%`);
-                setContent('memory-usage', `${(2 + Math.random() * 6).toFixed(1)}GB / 16GB`);
-                setContent('uptime', `${Math.floor(1 + Math.random() * 30)} days`);
+                console.error("Netdata API failed, using fallback.", error);
+                setContent('cpu-usage', '---');
+                setContent('memory-usage', '---');
+                setContent('uptime', '---');
             }
         }
 
@@ -588,7 +578,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             updateSystemHealth();
             updateWeather();
-            setInterval(updateSystemHealth, 5000); // Update health more frequently
+            setInterval(updateSystemHealth, 5000);
             setInterval(updateWeather, 300000);
         });
 
