@@ -7,8 +7,8 @@ USER root
 # Install essential PHP extensions for making API calls
 RUN apk --no-cache add php-curl php-json
 
-# Switch back to the default non-root user for security
-USER www-data
+# The container will automatically switch back to its default non-root user.
+# The USER www-data line has been removed as that user does not exist in this image.
 
 # Set the working directory inside the container
 WORKDIR /var/www/html
