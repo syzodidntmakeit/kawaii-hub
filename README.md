@@ -47,10 +47,13 @@ If you hate dependency hell and love repeatable setups, Docker is your waifu.
 - Extremely lightweight.
 - Must have for self hosting. Everyone you know who self hosts is using docker.
 
+### Ufw and Fail2ban
+Is just a simple but effective way to protet yourself from attacks and malicious actors. I will not be showing how to set it up as it is very simple and quite personal.
+
 ## Service 🐱
 
 ### 🏠 Homepage
-- **Homer** | Houses all the subdomains in a simplle web UI. # Simpson
+- **Custome** | I will be writing my own html code.
 
 ### 🗂 Personal Files
 - **Nextcloud** | Full Google Drive/Docs/Calendar alternative.   
@@ -67,29 +70,32 @@ If you hate dependency hell and love repeatable setups, Docker is your waifu.
 
 ### 📊 Admin
 - **Portainer** | Web GUI for managing Docker containers.
-- **Netdata** | 	Real-time server monitoring.
+- **Dashdot** | Simple server monitoring
+- **Netdata** | Advanced server monitoring.
+- **Uptime-Kuma** | Real-time service monitoring.
 
 ### 🖋️ Productivity
 - **Ollama + Open WebUI** | Local AI models and chatbot web interface.
 - **Trilium** | Note-taking supporting markdown and plain text.
+- **Memos** | Quick Notes for tasks.
 
 ### Full collection
 
 | **Number** | **Name** | **Domain** | **Function** |
 | --- | --- | --- | --- |
-| 00 | [Homer](/homer) 🏡                                     | [home](https://home.kawaii-san.org) | Homepage |
-| 01 | [Vaultwarden](./security-and-privacy/vaultwarden) ⚙️   | [passwords](https://passwords.kawaii-san.org) | Password Manager |
-| 02 | [Portainer](./admin/portainer) 🐳                      | [docker](https://docker.kawaii-san.org) | Docker Containers and Images Manager |
-| 03 | [Nextcloud](./personal-files/nextcloud) ☁️             | [cloud](https://cloud.kawaii-san.org) | Cloud Storage |
-| 04 | [Jellyfin](./media/jellyfin) 🪼                        | [anime](https://anime.kawaii-san.org) | Stream Anime |
-| 05 | [Navidrome](/navidrome) 💽                             | [music](https://music.kawaii-san.org) | Stream Music |
-| 06 | [Filebrowser](./personal-files/filebrowser) 📁         | [files](https://files.kawaii-san.org) | Browse Server Files |
-| 07 | [qBittorrent](./personal-files/qbittorrent) 🔧         | [torrent](https://torrent.kawaii-san.org) | Download and Seed Files |
+| 00 | [Homepage](./homepage) 🏡| [home](https://home.kawaii-san.org) | Homepage |
+| 01 | [Vaultwarden](./security-and-privacy/vaultwarden) ⚙️| [passwords](https://passwords.kawaii-san.org) | Password Manager |
+| 02 | [Portainer](./admin/portainer) 🐳| [docker](https://docker.kawaii-san.org) | Docker Containers and Images Manager |
+| 03 | [Nextcloud](./personal-files/nextcloud) ☁️| [cloud](https://cloud.kawaii-san.org) | Cloud Storage |
+| 04 | [Jellyfin](./media/jellyfin) 🪼| [anime](https://anime.kawaii-san.org) | Stream Anime |
+| 05 | [Navidrome](./media/navidrome) 💽| [music](https://music.kawaii-san.org) | Stream Music |
+| 06 | [Filebrowser](./personal-files/filebrowser) 📁| [files](https://files.kawaii-san.org) | Browse Server Files |
+| 07 | [qBittorrent](./personal-files/qbittorrent) 🔧| [torrent](https://torrent.kawaii-san.org) | Download and Seed Files |
 | 08 | [whoogle](./security-and-privacy/whoogle) <img width="20" height="20" alt="GoogleLogo" src="https://github.com/user-attachments/assets/632bd88b-fda1-4a87-be8b-52ef9a6008c8" /> | [search](https://search.kawaii-san.org) | Search Google without tracker |
-| 09 | [netdata](./netdata) 🖥️                                | [monitor](https://monitor.kawaii-san.org) | Manage Server performance |
-| 10 | [AI Chatbot](./ai-chatbot) 🤖                          | [mypookie](https://mypookie.kawaii-san.org) | AI Chatbot assisstant |
-| 11 | [Trilium](./trilium) 📝                                | [notes](https://notes.kawaii-san.org) | Note Taking hierarchy supports Markdown |
+| 09 | [netdata](./netdata) 🖥️| [monitor](https://monitor.kawaii-san.org) | Manage Server performance |
+| 10 | [AI Chatbot](./ai-chatbot) 🤖| [mypookie](https://mypookie.kawaii-san.org) | AI Chatbot assisstant |
+| 11 | [Trilium](./trilium) 📝| [notes](https://notes.kawaii-san.org) | Note Taking hierarchy supports Markdown |
 | 12 | Unused | :3  | :3 |
-| 13 | Memos |
-| 14 | Uptime-kuma |
-| 15 | Dashdot |
+| 13 | [Memos](./productivity/memos) | [memos](https://memos.kawaii-san.org) | Quick notes |
+| 14 | [Uptime-kuma](./admin/uptime-kuma) | [kuma](https://kuma.kawaii-san.org) | Monitor service health |
+| 15 | [Dashdot](./admin/dashdot) | [dashdot](https://dashdot.kawaii-san.org) | Monitor server |
