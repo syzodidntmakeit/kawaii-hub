@@ -89,4 +89,7 @@ If you hate dependency hell and love repeatable setups, Docker is your waifu.
 | 09 | [netdata](./netdata) 🖥️                                | [monitor](https://monitor.kawaii-san.org) | Manage Server performance |
 | 10 | [AI Chatbot](./ai-chatbot) 🤖                          | [mypookie](https://mypookie.kawaii-san.org) | AI Chatbot assisstant |
 | 11 | [Trilium](./trilium) 📝                                | [notes](https://notes.kawaii-san.org) | Note Taking hierarchy supports Markdown |
-| 12 | [Ghost](./blog) 👻                                     | [blog](https://blog.kawaii-san.org) | Blog |
+| 12 | Unused | :3  | :3 |
+| 13 | Memos |
+| 14 | Uptime-kuma |
+| 15 | Dashdot |
