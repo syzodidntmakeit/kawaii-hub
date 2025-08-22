@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  uptime-kuma:
+    image: louislam/uptime-kuma:latest
+    container_name: uptime-kuma
+    restart: unless-stopped
+    ports:
+      # Change <web_port> to an open port on your server (e.g., 9012).
+      # This avoids conflicts if you run multiple services.
+      - "<web_port>:3001"
+    networks:
+      - <docker_network>
+    volumes:
+      # This stores all your Uptime Kuma data, monitors, and status pages.
+      - ./kuma-data:/app/data
+
+networks:
+  <docker_network>:
+    external: true
