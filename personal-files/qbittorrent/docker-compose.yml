@@ -16,11 +16,11 @@ services:
       # Mount your main downloads folder
       - /path/to/your/media/downloads:/downloads
     ports:
-      - "9005:8080"      # Web UI Port: You should change this to avoid conflicting ports
+      - "<web-port>:8080"      # Web UI Port: You should change this to avoid conflicting ports
       - "6881:6881"      # Torrenting Port
       - "6881:6881/udp"  # Torrenting Port
     networks:
-      <docker-network>
+      - <docker-network>
     restart: unless-stopped
 
 networks:
