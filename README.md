@@ -63,6 +63,7 @@ Is just a simple but effective way to protet yourself from attacks and malicious
 - **Vaultwarden** | I ain't giving Google my passwords. And you want me to pay $60 a year just to host a 60kb pdf? I'll do it myself, thank you. Using bitwarden's architechure.
 - **Whoogle** | The last brush stroke to a bigger picture. This is just a feature to my big plan of privacy. Search Google without being tracked.
 - **ActualBudget** | Budget your finances, but in safe environment. I canNOT let anyone know I regularly have 96 cents in my bank account. 🥲
+- **Gluetun** | Piracy is theft apperantly. And your ISP may throttle your connection if it knows what you're doing. So connect a VPN to your server like you a Sultan.
 
 ### 📊 Admin
 - **Portainer** | Managing Docker containers and images. Shit **will** go wrong. And you will fix it.
@@ -92,5 +93,26 @@ Save your battery, save your data, save yourself from the algorithm.
 
 | **Number** | **Name** | **Domain** | **Function** |
 | --- | --- | --- | --- |
-| 00  | [Homepage](./homepage) 🏡 | [home](https://home.kawaii-san.org) | Homepage |
-| 01  | [Vaultwarden](./security/vaultwarden) ⚙️ | [passwords](https://passwords.kawaii-san.org) | Manage Passwords |
+| 00 | [Homepage](./homepage) 🏡 | [home](https://home.kawaii-san.org) | Homepage |
+| 01 | [Vaultwarden](./security/vaultwarden) ⚙️ | [passwords](https://passwords.kawaii-san.org) | Manage Passwords |
+| 02 | [Portainer](./admin/portainer) 🐋 | [docker](https://docker.kawaii-san.org) | Manage docker containers |
+| 03 | [Prowlarr](./media/prowlarr) 🦁 | [prowlarr](https://prowlarr.kawaii-san.org) | Manages Indexers and Torrents |
+| 04 | [Sonarr](./media/sonarr) 👧 | [anime](anime.kawaii-san.org) | Find anime (or any show you want) with ease |
+| 05 | [qBittorrent](./personal-files/qbittorrent) 🐳 | [torrent](https://torrent.kawaii-san.org) | Torrent any content in the world |
+| 06 | [Jellyfin](./media/jellyfin) :jellyfish: | [watch](https://watch.kawaii-san.org) | Watch Shows and Movies like it's on Netflix |
+| 07 | [Radarr](./media/radarr) 📶 | [movies](https://movies.kawaii-san.org) | Find movies with ease |
+| 08 | Not used | Not used | Not used |
+| 09 | Not used | Not used | Not used |
+| 10 | [Navidrome](./media/navidrome) 💽 | [music](https://music.kawaii-san.org) | Stream music as if Spotify is cattered to you |
+| 11 | Not used | Not used | Not used |
+| 12 | [Uptime Kuma](./admin/uptime-kuma) 🟢 | [kuma](https://kuma.kawaii-san.org) | Check the healths of servcies |
+| 13 | [Dashdot](./admin/dashdot) 🔴 | [dash](https://dash.kawaii-san.org) | Monitor the server performance |
+| 14 | [Filebrowser](./personal-files/filebrowser) 📁 | [files](https://files.kawaii-san.org) | Browse the server files over a webUI |
+| 15 | [Trilium](./productivity/trilium) 📝 | [notes](https://notes.kawaii-san.org) | Note taking app that supports Markdown and other shit |
+| 16 | [Whoogle](./security/whoogle) 🧒 | [search](https://search.kawaii-san.org) | Search Google without tracking |
+| 17 | [AI Chatbot](./productivity/ollama-openwebui) 🤖 | [mypookie](https://mypookie.kawaii-san.org) | My own chatbot cattered to my needs |
+| 18 | Not used | Not used | Not used |
+| 19 | [Memos](./productivity/memos) 🗒️ | [memos](https://memeos.kawaii-san.org) | Note taking for the simple stuff |
+| 20 | [Nextcloud](./personal-files.nextcloud) ☁️ | [cloud](https://cloud.kawaii-san.org) | Google Drive or Microsoft OneDrive but at home |
+| 21 | [Bookstack](./productivity/bookstack) 📘 | [book](http://book.kawaii-san.org) | Personalized Wiki of your own thoughts |
+| 22 | [ActualBudget](./security/actual-budget) 💵 | [budget](https://budget.kawaii-san.org) | Manage your finances on your own |
