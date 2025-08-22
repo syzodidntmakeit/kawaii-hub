@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  gluetun:
+    image: qmcgaw/gluetun:latest
+    container_name: gluetun
+    cap_add:
+      - NET_ADMIN
+    environment:
+      - VPN_SERVICE_PROVIDER=mullvad
+      - VPN_TYPE=wireguard
+      - WIREGUARD_PRIVATE_KEY=YOUR_WIREGUARD_PRIVATE_KEY
+      - WIREGUARD_ADDRESSES=YOUR_WIREGUARD_ADDRESS
+      - SERVER_COUNTRIES=Singapore
+    ports:
+    # This is where you would put the qBittorrent ports.
+      - <insert your torrent's web port>:8080
+      - 6881:6811
+      - 6881:6811/udp
+    networks:
+      - <docker-network>
+    restart: unless-stopped
+
+networks:
+  <docker-network>:
+    external: true
