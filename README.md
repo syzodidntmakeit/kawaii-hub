@@ -1,6 +1,5 @@
-# ✨ Kawaii-hub ✨
-Homelabbing; the joys of self hosting and running my own websites all for free... or almost free.
-Welcome to my kawaii self-hosting empire. Use this as your guide and inspiration if you wanna dive into the chaotic fun of running your own server
+# ✨ Kawaii Server ✨
+### I've always been interested in Cybersecurity, but my efforts were relenquished by Electronics Engineering. So I had to explore networking all alone. Besides, it was more fun this way. You could join me if you want. 😃
 
 ## PC Specs ⚡
 - Ryzen 5 5600
@@ -26,11 +25,6 @@ With this hobby, I learn how to use Arch Linux in CLI, how to manage services an
 - Command Line Based. All of Linux can be used in CLI (command line interface) which removes any GUI (graphical user interface) and gives you full control. And trust, it's not overwhelming, you want control.
 - Brag. "I use Arch Btw" is probably the most heard phrase in the Linux community. Superiority complex 🤷
 
-### Tailscale <img width="17" height="17" alt="images" src="https://github.com/user-attachments/assets/de6c9047-6ff5-4444-b2d2-903aaeb671e8" />
-Since both my home network is behind a CGNAT (yes. i have Starhub & ViewQuest for internet) I have to make my own mesh netowrk. Why?
-- Bypass any other network limitation like CGNAT or DNS (domain name system) set by my ISP (internet service provider).
-- My server isn't public meaning only devices within my mesh network can access my services.
-
 ### Cloudflare ☁️🟠
 We ❤️ Cloudflare. These are the people that use Lava Lamps for authentic RNG (random number generator) because computers are "not good enough". Legends. I bought a domain name kawaii-san.org and it makes this project significantly easier and more fun.
 Reasons for domain:
@@ -50,52 +44,53 @@ If you hate dependency hell and love repeatable setups, Docker is your waifu.
 ### Ufw and Fail2ban
 Is just a simple but effective way to protet yourself from attacks and malicious actors. I will not be showing how to set it up as it is very simple and quite personal.
 
-## Service 🐱
+## Services I will self host🐱
 
 ### 🏠 Homepage
-- **Custome** | I will be writing my own html code.
+- **Custome** | I will be writing my own html code. This will house all my services into one page. Like a hub...
 
 ### 🗂 Personal Files
-- **Nextcloud** | Full Google Drive/Docs/Calendar alternative.   
-- **FileBrowser** | Web-based file manager for your server’s files.
-- **qBittorrent** | Torrent files, download and seed locally.
+- **Nextcloud** | Google Drive sucks and I want to keep all my files to myself anyways. Google doesn't have to see my fanfiction of Rei Ayanami from Evangelion.
+- **FileBrowser** | It's an absolute life saver for just having to copy and send files to and from the server in a web interface.
+- **qBittorrent** | "Piracy" or whatever. If buying content isn't ownership, then torrenting isn't theft.
 
 ### 🎥 Media
-- **Jellyfin** | Open-source Netflix alternative.
-- **Navidrome** | Spotify-like music streaming from your library.
+- **Jellyfin** | Watch ALL the anime like a degenerate. And probably ogle at Rei Ayanami from Evangelion.
+- **Navidrome** | I hate paying for music streaming. Shit quality, doesn't even have the content, doesn't pay artist. Pssh.
+- **arr-stack** | A stack of *arr apps that I will explain in the [media](./media//README.md) section.
 
-### 🔒 Security & Privacy
-- **Vaultwarden** | Already running for password management.
-- **Whoogle** | Google without being tracked.
+### 🔒 Security
+- **Vaultwarden** | I ain't giving Google my passwords. And you want me to pay $60 a year just to host a 60kb pdf? I'll do it myself, thank you. Using bitwarden's architechure.
+- **Whoogle** | The last brush stroke to a bigger picture. This is just a feature to my big plan of privacy. Search Google without being tracked.
+- **ActualBudget** | Budget your finances, but in safe environment. I canNOT let anyone know I regularly have 96 cents in my bank account. 🥲
 
 ### 📊 Admin
-- **Portainer** | Web GUI for managing Docker containers.
-- **Dashdot** | Simple server monitoring
-- **Netdata** | Advanced server monitoring.
-- **Uptime-Kuma** | Real-time service monitoring.
+- **Portainer** | Managing Docker containers and images. Shit **will** go wrong. And you will fix it.
+- **Dashdot** | Web based monitoring. Just shows the utility of your compoments. Very handy
+- **Uptime-Kuma** | Monitor your services. This is just a funny little green and red health bar for each services. It just makes sure it is all up and running.
 
 ### 🖋️ Productivity
 - **Ollama + Open WebUI** | Local AI models and chatbot web interface.
 - **Trilium** | Note-taking supporting markdown and plain text.
 - **Memos** | Quick Notes for tasks.
+- **Bookstack** | My OWN personal wiki that I can put in almost anything in pages and chapters. Or a *stack of books*.
 
-### Full collection
+## Alternative services I have decided to start using 🐈
+
+### Mullvad Browser (Based on Tor Browser)
+Who still uses Google Chrome? Now it's all about the Opera GX and the Firefox. Remember Edge? Me neither. Mullvad is **NOT** recommended for the average user, but it is **VERY** secure and safe. Which is what i want. Give up a little bit of convenience for full control of my data.
+
+### Mullvad VPN ($7.48 a month)
+NordVPN, SurfsharkVPN, ExpressVPN, ProtonVPN. All these services can't be trusted your data. "USE ME SO YOU CAN STAY SAFE" but it's just your data going to them instead of Big Tech Corps directly, which they sell to advertises... Which is exactly what Big Tech does anyways. It's a full circle. 
+Mullvad, he don't give two shits. It is entirely open source and you are only paying for the servers instead. No premium plan. Just one price. Again, **NOT** recommended if you don't know what you're doing. But if you do, or you want to learn, this is probably the best 7 something dollars you will ever spend in the next 30 days. Trust me, bro.
+
+### NewPipe (Mobile App)
+YouTube is the biggest contentor for personal data. It knows you the best. So just... stop... NewPipe doesn't require sign ups. You just download and go. It's lightweight, and has similar features to YouTube premium. Yes. I have been wasting $8.98 a month for nothing.
+Save your battery, save your data, save yourself from the algorithm. 
+
+## Full collection
 
 | **Number** | **Name** | **Domain** | **Function** |
 | --- | --- | --- | --- |
-| 00 | [Homepage](./homepage) 🏡| [home](https://home.kawaii-san.org) | Homepage |
-| 01 | [Vaultwarden](./security-and-privacy/vaultwarden) ⚙️| [passwords](https://passwords.kawaii-san.org) | Password Manager |
-| 02 | [Portainer](./admin/portainer) 🐳| [docker](https://docker.kawaii-san.org) | Docker Containers and Images Manager |
-| 03 | [Nextcloud](./personal-files/nextcloud) ☁️| [cloud](https://cloud.kawaii-san.org) | Cloud Storage |
-| 04 | [Jellyfin](./media/jellyfin) 🪼| [anime](https://anime.kawaii-san.org) | Stream Anime |
-| 05 | [Navidrome](./media/navidrome) 💽| [music](https://music.kawaii-san.org) | Stream Music |
-| 06 | [Filebrowser](./personal-files/filebrowser) 📁| [files](https://files.kawaii-san.org) | Browse Server Files |
-| 07 | [qBittorrent](./personal-files/qbittorrent) 🔧| [torrent](https://torrent.kawaii-san.org) | Download and Seed Files |
-| 08 | [whoogle](./security-and-privacy/whoogle) <img width="20" height="20" alt="GoogleLogo" src="https://github.com/user-attachments/assets/632bd88b-fda1-4a87-be8b-52ef9a6008c8" /> | [search](https://search.kawaii-san.org) | Search Google without tracker |
-| 09 | [netdata](./netdata) 🖥️| [monitor](https://monitor.kawaii-san.org) | Manage Server performance |
-| 10 | [AI Chatbot](./ai-chatbot) 🤖| [mypookie](https://mypookie.kawaii-san.org) | AI Chatbot assisstant |
-| 11 | [Trilium](./trilium) 📝| [notes](https://notes.kawaii-san.org) | Note Taking hierarchy supports Markdown |
-| 12 | Unused | :3  | :3 |
-| 13 | [Memos](./productivity/memos) | [memos](https://memos.kawaii-san.org) | Quick notes |
-| 14 | [Uptime-kuma](./admin/uptime-kuma) | [kuma](https://kuma.kawaii-san.org) | Monitor service health |
-| 15 | [Dashdot](./admin/dashdot) | [dashdot](https://dashdot.kawaii-san.org) | Monitor server |
+| 00  | [Homepage](./homepage) 🏡 | [home](https://home.kawaii-san.org) | Homepage |
+| 01  | [Vaultwarden](./security/vaultwarden) ⚙️ | [passwords](https://passwords.kawaii-san.org) | Manage Passwords |
