@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  memos:
+    image: neosmemo/memos:latest
+    container_name: memos
+    restart: unless-stopped
+    ports:
+      # Change <web_port> to an open port on your server (e.g., 9019).
+      - "<web_port>:5230"
+    networks:
+      - <docker_network>
+    volumes:
+      # This stores all your memos and user data.
+      - ./memos-data:/var/opt/memos
+
+networks:
+  <docker_network>:
+    external: true
