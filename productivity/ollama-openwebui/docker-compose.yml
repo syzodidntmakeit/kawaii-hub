@@ -1,0 +1,39 @@
+version: "3.8"
+
+services:
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    restart: unless-stopped
+    networks:
+      - <docker_network>
+    volumes:
+      - ./ollama-data:/root/.ollama
+    # Uncomment and configure the deploy section for GPU acceleration.
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    restart: unless-stopped
+    ports:
+      # Change <web_port> to an open port on your server (e.g., 9017).
+      - "<web_port>:8080"
+    networks:
+      - <docker_network>
+    volumes:
+      - ./webui-data:/app/backend/data
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+    depends_on:
+      - ollama
+
+networks:
+  <docker_network>:
+    external: true
