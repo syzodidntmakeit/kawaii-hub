@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  prowlarr:
+    image: deluan/navidrome:latest
+    container_name: navidrome
+    environment:
+    # Do "id" in your terminal to find your ids
+      - PUID=<UID>
+      - PGID=<GID>
+      - TZ=Asia/Singapore # Feel free to change this
+    volumes:
+      - /path/to/your/navidrome-config:/data
+      # Mount your music library (read-only is safer)
+      - /path/to/your/media/music:/music:ro
+    ports:
+      - "<port>:9696" # Consider changing this avoid conflicting ports
+    networks:
+      - <docker-network>
+    restart: unless-stopped
+
+networks:
+  <docker-network>:
+    external: true
