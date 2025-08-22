@@ -14,7 +14,7 @@ This is my personal, self-hosted media stack, an automated system designed to di
 
 #### VPN and Download client
 - **Gluetun**: A VPN client in a container. Its primary role is to provide a secure, private internet connection for other containers. All of qBittorrent's traffic is forced through Gluetun, ensuring that my download activity remains private and my IP address is masked.
-- [**qBittorrent**](personal-files/qbittorrent): The workhorse of the operation. This is the torrent client that handles the actual downloading of files. It's configured to run its network through the Gluetun container, making all downloads secure and anonymous.
+- [**qBittorrent**](/personal-files/qbittorrent): The workhorse of the operation. This is the torrent client that handles the actual downloading of files. It's configured to run its network through the Gluetun container, making all downloads secure and anonymous.
 
 #### Indexer Management
 - **Prowlarr**: This is the master indexer manager. Instead of manually adding torrent sites (indexers) to Sonarr, Radarr, and Lidarr individually, I add them all to Prowlarr. Prowlarr then syncs these indexers across all the other *arr apps, keeping everything centralized and easy to manage.
