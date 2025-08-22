@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  dashdot:
+    image: mauricenino/dashdot:latest
+    container_name: dashdot
+    restart: unless-stopped
+    ports:
+      # Change <web_port> to an open port on your server (e.g., 9013).
+      # This avoids conflicts if you run multiple services.
+      - "<web_port>:3001"
+    networks:
+      - <docker_network>
+    volumes:
+      # These paths give Dashdot read-only access to your host system's stats.
+      - /etc/os-release:/etc/os-release:ro
+      - /proc:/proc:ro
+      - /sys:/sys:ro
+
+networks:
+  <docker_network>:
+    external: true
