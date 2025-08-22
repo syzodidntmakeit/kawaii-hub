@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  trilium:
+    image: zadam/trilium:latest
+    container_name: trilium
+    restart: unless-stopped
+    ports:
+      # Change <web_port> to an open port on your server (e.g., 9015).
+      - "<web_port>:8080"
+    networks:
+      - <docker_network>
+    volumes:
+      # This stores all your notes and Trilium data.
+      - ./trilium-data:/home/node/trilium-data
+
+networks:
+  <docker_network>:
+    external: true
