@@ -1,0 +1,59 @@
+version: "3.8"
+
+services:
+  # ======================================
+  #         NEXTCLOUD APP SERVICE
+  # ======================================
+  nextcloud-app:
+    image: nextcloud:latest
+    container_name: nextcloud
+    restart: unless-stopped
+    ports:
+      - "<web-port>:80" # You should change this to avoid conflicting ports
+    networks:
+      - <docker-network>
+    volumes:
+      # This stores the main Nextcloud application files and config
+      - ./nextcloud-data:/var/www/html
+      # This links to your server's data directory for Nextcloud files
+      - /path/to/your/data:/var/www/html/data
+    environment:
+      - POSTGRES_HOST=nextcloud-db
+      - REDIS_HOST=nextcloud-redis
+      - POSTGRES_DB=nextcloud
+      - POSTGRES_USER=nextcloud
+      - POSTGRES_PASSWORD=your_secure_postgres_password
+    depends_on:
+      - nextcloud-db
+      - nextcloud-redis
+
+  # ======================================
+  #      POSTGRES (DATABASE) SERVICE
+  # ======================================
+  nextcloud-db:
+    image: postgres:latest
+    container_name: nextcloud-db
+    restart: unless-stopped
+    networks:
+      - kawaii-net
+    volumes:
+      # This stores the Nextcloud database
+      - ./postgres-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=nextcloud
+      - POSTGRES_USER=nextcloud
+      - POSTGRES_PASSWORD=your_secure_postgres_password
+
+  # ======================================
+  #         REDIS (CACHE) SERVICE
+  # ======================================
+  nextcloud-redis:
+    image: redis:latest
+    container_name: nextcloud-redis
+    restart: unless-stopped
+    networks:
+      - <docker-network>
+
+networks:
+  <docker-network>:
+    external: true
