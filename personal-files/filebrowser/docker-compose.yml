@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  filebrowser:
+    image: filebrowser/filebrowser:latest
+    container_name: filebrowser
+    restart: unless-stopped
+    ports:
+      # Change <web_port> to an open port on your server (e.g., 9014).
+      # This avoids conflicts if you run multiple services.
+      - "<web_port>:80"
+    networks:
+      - <docker_network>
+    volumes:
+      # This stores the Filebrowser database and settings.
+      - ./filebrowser-data:/database
+      # This is the main folder Filebrowser will serve.
+      # Change /path/to/your/files to the directory you want to browse.
+      - /path/to/your/files:/srv
+
+networks:
+  <docker_network>:
+    external: true
