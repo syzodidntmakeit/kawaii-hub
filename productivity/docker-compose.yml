@@ -1,0 +1,41 @@
+version: "3.8"
+
+services:
+  bookstack:
+    image: lscr.io/linuxserver/bookstack:latest
+    container_name: bookstack
+    restart: unless-stopped
+    ports:
+      # Change <web_port> to an open port on your server (e.g., 9021).
+      - "<web_port>:80"
+    networks:
+      - <docker_network>
+    volumes:
+      - ./bookstack-data:/config
+    environment:
+      - APP_URL=<https://your-bookstack-url.com>
+      - APP_KEY=<your_generated_app_key>
+      - DB_HOST=bookstack-db
+      - DB_DATABASE=bookstack
+      - DB_USERNAME=bookstackuser
+      - DB_PASSWORD=your_secure_db_password
+    depends_on:
+      - bookstack-db
+
+  bookstack-db:
+    image: lscr.io/linuxserver/mariadb:latest
+    container_name: bookstack-db
+    restart: unless-stopped
+    networks:
+      - <docker_network>
+    volumes:
+      - ./mariadb-data:/config
+    environment:
+      - MYSQL_ROOT_PASSWORD=your_secure_root_password
+      - MYSQL_DATABASE=bookstack
+      - MYSQL_USER=bookstackuser
+      - MYSQL_PASSWORD=your_secure_db_password
+
+networks:
+  <docker_network>:
+    external: true
