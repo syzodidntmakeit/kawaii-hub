@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  prowlarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+    # Do "id" in your terminal to find your ids
+      - PUID=<UID>
+      - PGID=<GID>
+      - TZ=Asia/Singapore # Feel free to change this
+    volumes:
+      - /path/to/your/radarr-config:/config
+      # Mount your downloads folder so Radarr can see completed files
+      - /path/to/your/media/downloads:/downloads
+      # Mount your movie library folder
+      - /path/to/your/media/movies:/movies
+    ports:
+      - "<port>:9696" # Consider changing this avoid conflicting ports
+    networks:
+      - <docker-network>
+    restart: unless-stopped
+
+networks:
+  <docker-network>:
+    external: true
