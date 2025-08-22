@@ -20,12 +20,12 @@ With this hobby, I learn how to use Arch Linux in CLI, how to manage services an
 
 ## Prerequisites 🏁
 
-### Arch <img width="17" height="17" alt="image" src="https://github.com/user-attachments/assets/939bff59-1377-48a4-82d2-ab03e79b7608" />
+### [Arch](./configuration/arch) <img width="17" height="17" alt="image" src="https://github.com/user-attachments/assets/939bff59-1377-48a4-82d2-ab03e79b7608" />
 - Super lightweight, unlike Windows, means it doesn't have unwanted applications running int he background and very responsives.
 - Command Line Based. All of Linux can be used in CLI (command line interface) which removes any GUI (graphical user interface) and gives you full control. And trust, it's not overwhelming, you want control.
 - Brag. "I use Arch Btw" is probably the most heard phrase in the Linux community. Superiority complex 🤷
 
-### Cloudflare ☁️🟠
+### [Cloudflare](./configuration/cloudflare) ☁️🟠
 We ❤️ Cloudflare. These are the people that use Lava Lamps for authentic RNG (random number generator) because computers are "not good enough". Legends. I bought a domain name kawaii-san.org and it makes this project significantly easier and more fun.
 Reasons for domain:
 - No need to remember individual IP web address for each services. (e.g. http://192.168.x.x:8080)
@@ -34,7 +34,7 @@ Reasons for domain:
 
 Cloudflare my pookie 😘
 
-### Docker <img width="17" height="17" alt="png-clipart-docker-logo-thumbnail-tech-companies-thumbnail" src="https://github.com/user-attachments/assets/27466ede-e4bf-47b1-a574-f6607d4a0b26" />
+### [Docker](./configuration/docker) <img width="17" height="17" alt="png-clipart-docker-logo-thumbnail-tech-companies-thumbnail" src="https://github.com/user-attachments/assets/27466ede-e4bf-47b1-a574-f6607d4a0b26" />
 If you hate dependency hell and love repeatable setups, Docker is your waifu.
 - Run services in containers instead of VMs (virtual machines) or Bare-Metal
 - Deployment based on updates. So we can implement new features without bringing the whole thing down and back up again.
