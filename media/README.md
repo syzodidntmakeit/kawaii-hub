@@ -13,7 +13,7 @@ This is my personal, self-hosted media stack, an automated system designed to di
 ### Core Components
 
 #### VPN and Download client
-- **Gluetun**: A VPN client in a container. Its primary role is to provide a secure, private internet connection for other containers. All of qBittorrent's traffic is forced through Gluetun, ensuring that my download activity remains private and my IP address is masked.
+- [**Gluetun**](/security/gluetun): A VPN client in a container. Its primary role is to provide a secure, private internet connection for other containers. All of qBittorrent's traffic is forced through Gluetun, ensuring that my download activity remains private and my IP address is masked.
 - [**qBittorrent**](/personal-files/qbittorrent): The workhorse of the operation. This is the torrent client that handles the actual downloading of files. It's configured to run its network through the Gluetun container, making all downloads secure and anonymous. This is techincally a subject of Personal Files but it's main function is the heart of the automation of this media stack, thus I mentioned it here.
 
 #### Indexer Management
