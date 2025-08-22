@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
   prowlarr:
-    image: lscr.io/linuxserver/radarr:latest
-    container_name: radarr
+    image: lscr.io/linuxserver/jellyfin:latest
+    container_name: jellyfin
     environment:
     # Do "id" in your terminal to find your ids
       - PUID=<UID>
