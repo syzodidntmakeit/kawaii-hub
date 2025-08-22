@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  vaultwarden:
+    image: vaultwarden/server:latest
+    container_name: vaultwarden
+    restart: unless-stopped
+    ports:
+      # Change <web_port> to an open port on your server (e.g., 9001).
+      # This avoids conflicts if you run multiple services.
+      - "<web_port>:80"
+    networks:
+      - <docker_network>
+    volumes:
+      # This stores all your encrypted vault data.
+      - ./vw-data:/data
+
+networks:
+  <docker_network>:
+    external: true
