@@ -44,7 +44,7 @@ If you hate dependency hell and love repeatable setups, Docker is your waifu.
 ### Ufw and Fail2ban
 Is just a simple but effective way to protet yourself from attacks and malicious actors. I will not be showing how to set it up as it is very simple and quite personal.
 
-## Services I will self host🐱
+## Services I will self host 🐱
 
 ### 🏠 Homepage
 - **Custome** | I will be writing my own html code. This will house all my services into one page. Like a hub...
