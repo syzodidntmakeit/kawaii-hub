@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  prowlarr:
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: sonarr
+    environment:
+    # Do "id" in your terminal to find your ids
+      - PUID=<UID>
+      - PGID=<GID>
+      - TZ=Asia/Singapore # Feel free to change this
+    volumes:
+      - /path/to/your/sonarr-config:/config
+      # Mount your downloads folder so Sonarr can see completed files
+      - /path/to/your/media/downloads:/downloads
+      # Mount your TV/Anime library folder
+      - /path/to/your/media/anime:/tv
+    ports:
+      - "<port>:9696" # Consider changing this avoid conflicting ports
+    networks:
+      - <docker-network>
+    restart: unless-stopped
+
+networks:
+  <docker-network>:
+    external: true
