@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  actual-server:
+    image: actualbudget/actual-server:latest
+    container_name: actual-server
+    restart: unless-stopped
+    ports:
+      # Change <web_port> to an open port on your server (e.g., 9022).
+      # This avoids conflicts if you run multiple services.
+      - "<web_port>:5006"
+    networks:
+      - <docker_network>
+    volumes:
+      # This stores your server configuration files.
+      - ./server-data:/data
+      # This stores your actual budget files.
+      - ./budget-data:/user-files
+
+networks:
+  <docker_network>:
+    external: true
