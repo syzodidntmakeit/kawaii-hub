@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  whoogle:
+    image: benbusby/whoogle-search:latest
+    container_name: whoogle
+    restart: unless-stopped
+    ports:
+      # Change <web_port> to an open port on your server (e.g., 9016).
+      # This avoids conflicts if you run multiple services.
+      - "<web_port>:5000"
+    networks:
+      - <docker_network>
+    volumes:
+      # This stores your Whoogle configuration and themes.
+      - ./whoogle-data:/config
+
+networks:
+  <docker_network>:
+    external: true
