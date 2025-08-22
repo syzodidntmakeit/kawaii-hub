@@ -3,7 +3,7 @@ version: "3.8"
 services:
   actual-server:
     image: actualbudget/actual-server:latest
-    container_name: actual-server
+    container_name: actualbudget
     restart: unless-stopped
     ports:
       # Change <web_port> to an open port on your server (e.g., 9022).
