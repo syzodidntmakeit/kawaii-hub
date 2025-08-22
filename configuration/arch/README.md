@@ -3,6 +3,8 @@ So, you've decided to install Arch Linux. Good. You're choosing to build your sy
 
 This guide will walk you through installing a minimal, headless Arch Linux system, perfect for a server. The process is done entirely from the command line, so get ready to feel like a real hacker from a 90s movie.
 
+<img width="8000" height="2659" alt="archlinux-logo-black-1200dpi" src="https://github.com/user-attachments/assets/73909e8a-d15c-4598-9192-395aaaf5c870" />
+
 ## Part 0: The Prep Work (Don't fuck around here)
 Get your shit together
 
@@ -148,3 +150,5 @@ Final steps before we can actually use this damn thing.
 If all went well, your computer will boot into a black screen with a login prompt. Log in with the user you created (`kendrickLamar`). You now have a minimal, functioning Arch Linux server.
 
 From here, the world is your oyster. You can start installing Docker, setting up your server applications, or installing a desktop environment if you're not running headless. Welcome to the club.
+
+Btw, you could've just used EndeavourOS but you decided to act before you think. Dumbass.
