@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    restart: unless-stopped
+    ports:
+      # Change <web_port> to an open port on your server (e.g., 9002).
+      # This avoids conflicts if you run multiple services.
+      - "<web_port>:9000"
+    networks:
+      - <docker_network>
+    volumes:
+      # This stores Portainer's database and settings.
+      - ./portainer-data:/data
+      # This gives Portainer access to the Docker socket to manage containers.
+      - /var/run/docker.sock:/var/run/docker.sock
+
+networks:
+  <docker_network>:
+    external: true
