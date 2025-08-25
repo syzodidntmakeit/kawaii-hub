@@ -97,10 +97,10 @@ Save your battery, save your data, save yourself from the algorithm.
 | 01 | [Vaultwarden](./security/vaultwarden) ⚙️ | [passwords](https://passwords.kawaii-san.org) | Manage Passwords |
 | 02 | [Portainer](./admin/portainer) 🐋 | [docker](https://docker.kawaii-san.org) | Manage docker containers |
 | 03 | [Prowlarr](./media/prowlarr) 🦁 | [prowlarr](https://prowlarr.kawaii-san.org) | Manages Indexers and Torrents |
-| 04 | [Sonarr](./media/sonarr) 👧 | [anime](anime.kawaii-san.org) | Find anime (or any show you want) with ease |
+| 04 | [Sonarr](./media/sonarr) 👧 | [sonarr](https://sonarr.kawaii-san.org) | Find anime (or any show you want) with ease |
 | 05 | [qBittorrent](./personal-files/qbittorrent) 🐳 | [torrent](https://torrent.kawaii-san.org) | Torrent any content in the world |
-| 06 | [Jellyfin](./media/jellyfin) :jellyfish: | [watch](https://watch.kawaii-san.org) | Watch Shows and Movies like it's on Netflix |
-| 07 | [Radarr](./media/radarr) 📶 | [movies](https://movies.kawaii-san.org) | Find movies with ease |
+| 06 | [Jellyfin](./media/jellyfin) :jellyfish: | [jellyfin](https://jellyfin.kawaii-san.org) | Watch Shows and Movies like it's on Netflix |
+| 07 | [Radarr](./media/radarr) 📶 | [radarr](https://radarr.kawaii-san.org) | Find movies with ease |
 | 08 | Not used | Not used | Not used |
 | 09 | Not used | Not used | Not used |
 | 10 | [Navidrome](./media/navidrome) 💽 | [music](https://music.kawaii-san.org) | Stream music as if Spotify is cattered to you |
