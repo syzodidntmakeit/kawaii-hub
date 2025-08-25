@@ -112,7 +112,7 @@ Save your battery, save your data, save yourself from the algorithm.
 | 16 | [Whoogle](./security/whoogle) 🧒 | [search](https://search.kawaii-san.org) | Search Google without tracking |
 | 17 | [AI Chatbot](./productivity/ollama-openwebui) 🤖 | [mypookie](https://mypookie.kawaii-san.org) | My own chatbot cattered to my needs |
 | 18 | [Kiwix](./producitivy/kiwix) 🥝 | [wiki](https://wiki.kawaii-san.org) | All the world's information in a thumbdrive |
-| 19 | [Memos](./productivity/memos) 🗒️ | [memos](https://memeos.kawaii-san.org) | Note taking for the simple stuff |
+| 19 | [Memos](./productivity/memos) 🗒️ | [note](https://note.kawaii-san.org) | Note taking for the simple stuff |
 | 20 | [Nextcloud](./personal-files.nextcloud) ☁️ | [cloud](https://cloud.kawaii-san.org) | Google Drive or Microsoft OneDrive but at home |
 | 21 | [Bookstack](./productivity/bookstack) 📘 | [book](http://book.kawaii-san.org) | Personalized Wiki of your own thoughts |
 | 22 | [ActualBudget](./security/actual-budget) 💵 | [budget](https://budget.kawaii-san.org) | Manage your finances on your own |
